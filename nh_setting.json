@@ -1,0 +1,21 @@
+{
+  "has_base_salary": "Yes",
+  "base_salary": 8400.0,
+  "has_obligation": "Yes",
+  "obligation_hours": 60.0,
+  "flat_rate": 0.0,
+  "rules": [
+    {
+      "upper": 80.0,
+      "rate": 115.0
+    },
+    {
+      "upper": 100.0,
+      "rate": 120.0
+    },
+    {
+      "upper": null,
+      "rate": 135.0
+    }
+  ]
+}
