@@ -27,18 +27,6 @@ I built a Streamlit web app that parses a teaching-tracking Excel workbook, comp
 
 ---
 
-## Demo
-
-### Landing page
-
-![Landing page](pic/screenshot.png)
-
-### Settings sidebar
-
-![Settings](pic/screenshot_settings.png)
-
----
-
 ## Getting started
 
 ### 1. Clone the repo
@@ -148,8 +136,9 @@ class-hour-tracker/
 ├── nh_setting.json              # Persisted payment settings (gitignored)
 ├── requirements.txt             # Python dependencies
 ├── pic/
-│   ├── screenshot.png           # Landing-page screenshot
-│   └── screenshot_settings.png  # Settings sidebar screenshot
+│   ├── screenshot1.png           
+│   └── screenshot2.png  
+│   └── screenshot3.png  
 └── README.md
 ```
 
@@ -160,5 +149,7 @@ class-hour-tracker/
 ### Run locally
 
 ```bash
+# activate python environment
+# run streamlit
 streamlit run nh_app.py
 ```
