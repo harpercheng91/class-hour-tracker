@@ -6,6 +6,7 @@ I built a Streamlit web app that parses a teaching-tracking Excel workbook, comp
 
 ![Landing page 1](pic/screenshot1.png)
 ![Landing page 2](pic/screenshot2.png)
+![Visualization Tab](pic/screenshot3.png)
 ---
 
 ## Features
@@ -20,6 +21,8 @@ I built a Streamlit web app that parses a teaching-tracking Excel workbook, comp
   - Optional base salary
   - Optional obligatory hours (unpaid quota)
   - Flat hourly rate **or** tiered rates on absolute hours
+- **CSV export** — one-click download of the weekly and monthly tables.
+- **Interactive charts** — side-by-side monthly bar chart of Class vs Tutorial hours across the full history; tooltips show the monthly total (Class + Tutorial), and charts ignore the sidebar filter so the current month can be compared against past months.
 - **CSV export** — one-click download of the weekly and monthly tables.
 
 ---
